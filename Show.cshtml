@@ -1,0 +1,50 @@
+﻿@using MVCbilibili.Models;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+</head>
+<body>
+    <div> 
+        <h1>show</h1>
+        <hr />
+        @{ 
+
+            int a1 = 10;
+            string str1 = "<h1>123</h1>";
+            Response.Write(a1);
+
+
+
+
+        }
+        <br />
+        @a1<br />123
+        @str1
+        <hr/>
+        @{for (int i = 0; i < 10; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    @i<br /><span>121212</span>
+
+
+
+                }
+            }
+        }
+        @{person p = new person();
+            p.age = 20;
+
+        }
+        @p.age
+
+    </div>
+</body>
+</html>
