@@ -11,7 +11,7 @@ namespace MVCbilibili.Controllers
         // GET: News
         public ActionResult Show(string ID)
         {
-            
+                
             ViewBag.ID = ID;
             return View();
         }
@@ -20,6 +20,8 @@ namespace MVCbilibili.Controllers
         {
             return View();
         }
+
+        TestNew1
 
 
     }
