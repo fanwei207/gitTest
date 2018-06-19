@@ -16,6 +16,10 @@ namespace MVCbilibili.Controllers
             return View();
         }
 
+        public ActionResult Test(string ID)
+        {
+            return View();
+        }
 
 
     }
